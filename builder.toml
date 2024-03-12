@@ -1,0 +1,10 @@
+description = "Ubuntu 22.04 Noble Jellyfish base image with no buildpacks included. To use, specify buildpacks at build time."
+
+[lifecycle]
+  version = "0.19.0"
+
+[stack]
+  build-image = "docker.io/paketobuildpacks/build-noble-base:0.0.1"
+  id = "io.buildpacks.stacks.noble"
+  run-image = "index.docker.io/paketobuildpacks/run-noble-base:latest"
+  run-image-mirrors = []
