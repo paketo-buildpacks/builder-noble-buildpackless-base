@@ -7,4 +7,3 @@ description = "Ubuntu 24.04 Noble Numbat base image with no buildpacks included.
   build-image = "docker.io/paketobuildpacks/build-noble-base:0.0.3"
   id = "io.buildpacks.stacks.noble"
   run-image = "index.docker.io/paketobuildpacks/run-noble-base:latest"
-  run-image-mirrors = []
